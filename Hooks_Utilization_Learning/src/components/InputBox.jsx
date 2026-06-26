@@ -13,7 +13,7 @@ const InputBox = ({
 }) => {
     return (
         <div className={`bg-white p-4 rounded-lg text-sm flex ${className}`}>
-            <div classname="w-1/2">
+            <div className="w-1/2">
                 <label className="text-black/40 mb-2 inline-block">{label}</label>
                 <input
                     type="number"
